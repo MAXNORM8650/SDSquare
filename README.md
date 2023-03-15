@@ -5,7 +5,7 @@ pytorch.
 
 The code was written by [Komal Kumar](https://github.com/MAXNORM8650) and is based on
 the [Guided Diffusion Repo](https://github.com/Julian-Wyatt/AnoDDPM), [Predictive Convolutional Attentive block repo](https://github.com/ristea/sspcab), and [guided-diffusion repo](https://github.com/openai/guided-diffusion).
-#	Simplex Diffusion and Selective Denoising \left(\mathbit{SD}\right)^\mathbf{2}
+#	Simplex Diffusion and Selective Denoising (SD)Square
 ![model pdf](https://user-images.githubusercontent.com/97806194/225223535-0ae2064d-1a00-4649-83af-353edc7d58b5.png)
 # Selective denoising backward process
 ![SD drawio](https://user-images.githubusercontent.com/97806194/225223942-f6800cad-63c4-42d6-a40d-cf55e6a450e2.png)
