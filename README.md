@@ -8,7 +8,7 @@ the [Guided Diffusion Repo](https://github.com/Julian-Wyatt/AnoDDPM), [Predictiv
 
 ![model pdf](https://user-images.githubusercontent.com/97806194/225223535-0ae2064d-1a00-4649-83af-353edc7d58b5.png)
 
-[SD.drawio (1).pdf](https://github.com/MAXNORM8650/SDSquare/files/10976609/SD.drawio.1.pdf)
+![SD.drawio (1).pdf](https://github.com/MAXNORM8650/SDSquare/files/10976609/SD.drawio.1.pdf)
 
 
 ## File structure:
