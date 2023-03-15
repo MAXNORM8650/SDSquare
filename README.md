@@ -22,7 +22,7 @@ the [Guided Diffusion Repo](https://github.com/Julian-Wyatt/AnoDDPM), [Predictiv
 - generate_images.py - generates images for Figs in paper
 - helpers.py - helper functions for use in several places ie checkpoint loading
 - simplex.py - Simplex class - forked from https://github.com/lmas/opensimplex with added multi-scale code.
-- UNet.py - UNet architecture, forked from https://github.com/openai/guided-diffusion
+- UNet.py - UNet architecture, forked from https://github.com/openai/guided-diffusion and with added a selective-denoising block.
 - test_args/args{i}.json - primary example seen below
 - model/diff-params-ARGS={i}/params-final.pt - checkpoint for i'th arg
 - Examples/ - demonstration of early testing
