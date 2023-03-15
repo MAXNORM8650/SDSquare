@@ -1,4 +1,4 @@
-# AnoDDPM: Anomaly Detection with Denoising Diffusion Probabilistic Models using Simplex Noise
+# SDSquare: Simplex Diffusion and Selective Denoising Self-Supervised Model for Anomaly Detection in Medical Images
 
 This is the github repository for an anomaly detection approach utilising DDPMs with simplex noise implemented in
 pytorch.
