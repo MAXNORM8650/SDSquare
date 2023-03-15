@@ -11,7 +11,7 @@ the [Guided Diffusion Repo](https://github.com/Julian-Wyatt/AnoDDPM), [Predictiv
 ![SD drawio](https://user-images.githubusercontent.com/97806194/225223942-f6800cad-63c4-42d6-a40d-cf55e6a450e2.png)
 
 
-## File structure:
+## Main file structure:
 
 - dataset.py - custom dataset loader
 - detection.py - code for generating measures & initial testing and experimentation.
