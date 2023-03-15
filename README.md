@@ -4,7 +4,13 @@ This is the github repository for an anomaly detection approach utilising DDPMs 
 pytorch.
 
 The code was written by [Komal Kumar](https://github.com/MAXNORM8650) and is based on
-the [Guided Diffusion Repo](https://github.com/Julian-Wyatt/AnoDDPM), [Predictive Convolutional Attentive block repo](https://github.com/ristea/sspcab), and [guided-diffusion repo] (https://github.com/openai/guided-diffusion).
+the [Guided Diffusion Repo](https://github.com/Julian-Wyatt/AnoDDPM), [Predictive Convolutional Attentive block repo](https://github.com/ristea/sspcab), and [guided-diffusion repo](https://github.com/openai/guided-diffusion).
+
+![model pdf](https://user-images.githubusercontent.com/97806194/225223535-0ae2064d-1a00-4649-83af-353edc7d58b5.png)
+
+[SD.drawio (1).pdf](https://github.com/MAXNORM8650/SDSquare/files/10976609/SD.drawio.1.pdf)
+
+
 ## File structure:
 
 - dataset.py - custom dataset loader
@@ -14,9 +20,7 @@ the [Guided Diffusion Repo](https://github.com/Julian-Wyatt/AnoDDPM), [Predictiv
 - GaussianDiffusion.py - Gaussian architecture with custom detection, forked from https://github.
   com/openai/guided-diffusion
 - generate_images.py - generates images for Figs in paper
-- graphs.py - reduce graph quality, load and visualise graphs
 - helpers.py - helper functions for use in several places ie checkpoint loading
-- perlin.py - Generating Fig 2 and testing octaves
 - simplex.py - Simplex class - forked from https://github.com/lmas/opensimplex with added multi-scale code.
 - UNet.py - UNet architecture, forked from https://github.com/openai/guided-diffusion
 - test_args/args{i}.json - primary example seen below
