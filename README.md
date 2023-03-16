@@ -29,12 +29,12 @@ the [Guided Diffusion Repo](https://github.com/Julian-Wyatt/AnoDDPM), [Predictiv
 
 ### Train
 
-To train a model, run `python3 diffusion_training.py ARG_NUM` where `ARG_NUM` is the number relating to the json arg
+To train a model, run `python .\diffusion_training.py argsN` where `argsN` is the number relating to the json arg
 file. These arguments are stored in ./test_args/ and are called args38.json for example.
 
 ### Evaluate
 
-To evaluate a model, run `python detection.py ARG_NUM`, and ensure the script runs the correct sub function.
+To evaluate a model, run `python .\detection.py argsN`, and ensure the script runs the correct sub function.
 
 ### Datasets
 BRATS2021 and Pneumonia X-Ray both publicly available datasets. Please refer to the paper for more details.
