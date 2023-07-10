@@ -4,7 +4,7 @@ This is the github repository for an anomaly detection approach utilising DDPMs 
 pytorch.
 
 The code was written by [Komal Kumar](https://github.com/MAXNORM8650) and is based on
-the [Guided Diffusion Repo](https://github.com/Julian-Wyatt/AnoDDPM), [Predictive Convolutional Attentive block repo](https://github.com/ristea/sspcab), and [guided-diffusion repo](https://github.com/openai/guided-diffusion).
+the [Denoising diffusion model for Anomaly detection](https://github.com/Julian-Wyatt/AnoDDPM), [Predictive Convolutional Attentive block repo](https://github.com/ristea/sspcab), and [guided-diffusion repo](https://github.com/openai/guided-diffusion).
 #	Simplex Diffusion and Selective Denoising (SD)Square
 ![model pdf](https://user-images.githubusercontent.com/97806194/225223535-0ae2064d-1a00-4649-83af-353edc7d58b5.png)
 # Selective denoising backward process
