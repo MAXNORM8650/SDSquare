@@ -15,7 +15,7 @@ the [Denoising diffusion model for Anomaly detection repo](https://github.com/Ju
 
 This repository contains code for a project focused on diffusion models and detection. The project includes various components and functionalities for training, evaluation, and experimentation with these models. Below is a brief overview of the main files and directories in this repository:
 
-dataset.py: This file provides a custom dataset loader, allowing you to load and preprocess your own dataset for training and testing.
+--dataset.py: This file provides a custom dataset loader, allowing you to load and preprocess your own dataset for training and testing.
 
 detection.py: It contains code for generating measures, performing initial testing, and conducting experiments related to detection.
 
