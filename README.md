@@ -15,31 +15,31 @@ the [Denoising diffusion model for Anomaly detection repo](https://github.com/Ju
 
 This repository contains code for a project focused on diffusion models and detection. The project includes various components and functionalities for training, evaluation, and experimentation with these models. Below is a brief overview of the main files and directories in this repository:
 
-- dataset.py: This file provides a custom dataset loader, allowing you to load and preprocess your own dataset for training and testing.
+* dataset.py: This file provides a custom dataset loader, allowing you to load and preprocess your own dataset for training and testing.
 
-detection.py: It contains code for generating measures, performing initial testing, and conducting experiments related to detection.
+* detection.py: It contains code for generating measures, performing initial testing, and conducting experiments related to detection.
 
-diffusion_training.py: This file implements the training procedure for your diffusion model, allowing you to train the model using your dataset.
+* diffusion_training.py: This file implements the training procedure for your diffusion model, allowing you to train the model using your dataset.
 
-evaluation.py: It includes functions for measuring and evaluating the performance of your diffusion model on different metrics and evaluation criteria.
+* evaluation.py: It includes functions for measuring and evaluating the performance of your diffusion model on different metrics and evaluation criteria.
 
-GaussianDiffusion.py: This file represents a Gaussian architecture with custom detection capabilities. It is based on a forked version of the original code from the OpenAI repository.
+* GaussianDiffusion.py: This file represents a Gaussian architecture with custom detection capabilities. It is based on a forked version of the original code from the OpenAI repository.
 
-helpers.py: It provides various helper functions that can be utilized in different parts of the project, such as loading checkpoints and handling common operations.
+* helpers.py: It provides various helper functions that can be utilized in different parts of the project, such as loading checkpoints and handling common operations.
 
-simplex.py: This file contains a class named Simplex that offers noise generation functionality. It is a forked version of the opensimplex library, with additional support for 3D and 4D noise generation for colored applications.
+* simplex.py: This file contains a class named Simplex that offers noise generation functionality. It is a forked version of the opensimplex library, with additional support for 3D and 4D noise generation for colored applications.
 
-UNet.py: This file implements the UNet architecture, which is forked from the OpenAI repository. It includes an added selective-denoising block, enhancing the capabilities of the model.
+* UNet.py: This file implements the UNet architecture, which is forked from the OpenAI repository. It includes an added selective-denoising block, enhancing the capabilities of the model.
 
-In addition, the repository includes the following directories:
+* In addition, the repository includes the following directories:
 
-test_args/args{i}.json: These JSON files provide example arguments for testing and configuring different aspects of the project.
+* test_args/args{i}.json: These JSON files provide example arguments for testing and configuring different aspects of the project.
 
-model/diff-params-ARGS={i}/params-final.pt: These files represent checkpoints saved during the training process. They can be used to restore and utilize trained models for further experimentation or deployment.
+* model/diff-params-ARGS={i}/params-final.pt: These files represent checkpoints saved during the training process. They can be used to restore and utilize trained models for further experimentation or deployment.
 
-diffusion-videos/ARGS={i}/: This directory contains video outputs generated during various stages of training, testing, and detection. These videos can be helpful for visualizing the performance and progress of the models.
+* diffusion-videos/ARGS={i}/: This directory contains video outputs generated during various stages of training, testing, and detection. These videos can be helpful for visualizing the performance and progress of the models.
 
-diffusion-training-images/ARGS={i}/: This directory contains detection images related to the project. These images can be used to showcase the results and illustrate the effectiveness of the detection algorithms implemented in the project.
+* diffusion-training-images/ARGS={i}/: This directory contains detection images related to the project. These images can be used to showcase the results and illustrate the effectiveness of the detection algorithms implemented in the project.
 
 Feel free to modify and customize this description based on your project's specific details and goals.
 ### Train
