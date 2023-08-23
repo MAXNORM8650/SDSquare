@@ -70,5 +70,5 @@ Feel free to modify and adapt this information as needed to accurately reflect t
   "noise_fn": "simplex",
   "dataset": "pneumonia"
 }
-## Cite:
-Cite the paper: Komal Kumar, Snehashis Chakraborty, Sudipta Roy, " Self-Supervised Diffusion Model for Anomaly Segmentation in Medical Imaging," International Conference on Pattern Recognition and Machine Intelligence. December 12 - 15, 2023, Kolkata, India
+## Cite the paper:
+Komal Kumar, Snehashis Chakraborty, Sudipta Roy, " Self-Supervised Diffusion Model for Anomaly Segmentation in Medical Imaging," International Conference on Pattern Recognition and Machine Intelligence. December 12 - 15, 2023, Kolkata, India
